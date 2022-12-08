@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main
- * Description: use of sizeof() operator
+ * main - Entry point
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
