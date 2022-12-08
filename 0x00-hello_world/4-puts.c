@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-/* main func */
-
+/*
+ *
+ *main function
+ * 
+ */
 int main(void)
 {
 
