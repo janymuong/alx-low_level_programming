@@ -3,10 +3,10 @@
 
 /**
   * main - Code entry point
-  * Print unidigits 
+  * Print unidigits
   * Return: Return 0 after execution
   */
-int main()
+int main(void)
 {
 	int i;
 
