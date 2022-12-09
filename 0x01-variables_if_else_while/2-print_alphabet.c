@@ -11,12 +11,12 @@ int main(void)
 	char c = 'a';
 	char z = 'z';
 
-	/* loop through the alphabet */ 
+	/* loop through the alphabet */
 	for (; c <= z; c++)
 	{
 		putchar(c);
 	}
-	
+
 	putchar('\n');
 
 	return (0);
