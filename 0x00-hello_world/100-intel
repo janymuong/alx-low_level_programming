@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE -o `basename $CFILE .c`.s
+gcc -S -o -masm=intel ${CFILE%.c}.s $CFILE
