@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - prints the alphabet, if owercase
+ * _islower - prints the alphabet, if lowercase
  */
 int _islower(int c)
 {
