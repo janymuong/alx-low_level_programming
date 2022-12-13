@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * function print_alphabet - prints the alphabet owercase
- *
- * Return: void
+ * print_alphabet - prints the alphabet owercase
  */
 void print_alphabet(void)
 {
