@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main
+ * main - Entry point
  * function _putchar()-print char str
  * '_putchar' w/ while loop
  * Return: Always 0 (Success)
