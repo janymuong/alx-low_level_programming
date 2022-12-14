@@ -2,7 +2,7 @@
 
 /**
   * print_last_digit - print last digit from a char stream
-  * @lit: last digit int to check
+  * @lit: digit to check
   * @n: multi-digit number
   * Return: Returns last digit
   */
