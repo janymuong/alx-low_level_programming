@@ -14,7 +14,7 @@ int print_last_digit(int n)
 
 	if (lit < 0)
 	{
-		lit = (-1) * lit;
+		lit = ((-1) * lit);
 	}
 
 	_putchar(lit + '0');
