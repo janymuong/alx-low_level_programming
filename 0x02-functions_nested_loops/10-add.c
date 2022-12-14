@@ -2,7 +2,8 @@
 
 /**
   * add - add numbers a, b
-  * @a, @b: integers to add
+  * @a: first int
+  * @b: sesond int to add
   * Return: Returs result
   */
 int add(int a, int b)
