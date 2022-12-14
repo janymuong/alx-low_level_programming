@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * abs- print ansolute int
+  * _abs - print ansolute (value)int
   * @x: int to check
   *
   * Return: Returns value of integer
