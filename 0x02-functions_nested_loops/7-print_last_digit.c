@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
-  * print_last_digit - print last digit from a cahr stream
-  * @lastDigit: int to check
-  *
-  * Return: Returns lastDigit
+  * print_last_digit - print last digit from a char stream
+  * @lit: last digit int to check
+  * @n: multi-digit number
+  * Return: Returns last digit
   */
 int print_last_digit(int n)
 {
-	int lastDigit;
+	int lit;
 
-	lastDigit = n % 10;
+	lit = n % 10;
 
-	if (lastDigit < 0)
+	if (lit < 0)
 	{
-		lastDigit = (-1) * lastDigit;
+		lit = (-1) * lit;
 	}
 
-	_putchar(lastDigit + '0');
-	return lastDigit;
+	_putchar(lit + '0');
+	return (lit);
 }
