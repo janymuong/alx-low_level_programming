@@ -1,33 +1,53 @@
 #include <stdio.h>
-#include <stdlib.h>
+
+void fizz_buzz(void);
 
 /**
- * main - prints the numbers from 1 to 100
- * 3 multiples print Fizz instead of the number
- * 5 multiples print Buzz instead of the number
- * 3 & 5 multiples print FizzBuzz instead of the number
- * Return: Always 0 (Success)
+ * main - start of program
+ *
+ * prints Fizz for multiples of 3 
+ * pritns Buzz for multiples of 5 
+ * prints FizzBuzz for multiples of 5 & 3
+ *
+ * Return: Always 0 ()success
  */
 int main(void)
 {
-	int i;
-	char f[] = "Fizz";
-	char b[] = "Buzz";
-	char fb[] = "FizzBuzz";
+	fizz_buzz();
+	return (0);
+}
 
-	for (i = 1; i <= 100; i++)
+/**
+ * fizz_buzz - print from 1 thro' 100
+ *
+ * Return - void
+ */
+void fizz_buzz(void)
+{
+	int fizz;
+
+	for (fizz = 1; fizz <= 100; fizz++)
 	{
-		if (i == 100)
-			printf("%s", b);
-		else if ((i % 3 == 0) && (i % 5 == 0))
-			printf("%s ", fb);
-		else if (i % 3 == 0)
-			printf("%s ", f);
-		else if (i % 5 == 0)
-			printf("%s ", b);
+		if (fizz % 15 == 0)
+		{
+			printf("FizzBuzz ");
+		}
+		else if (fizz % 3 == 0)
+		{
+			printf("Fizz ");
+		}
+		else if (fizz % 5 == 0)
+		{
+			printf("Buzz ");
+		}
 		else
-			printf("%d ", i);
+		{
+			if (fizz = 100)
+			{
+				printf("%d", fizz);
+			}
+			printf("%d ", fizz);
+		}
 	}
 	printf("\n");
-	return (0);
 }
