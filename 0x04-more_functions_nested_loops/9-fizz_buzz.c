@@ -1,53 +1,36 @@
 #include <stdio.h>
-
-void fizz_buzz(void);
+#include <stdlib.h>
 
 /**
  * main - start of program
  *
- * prints Fizz for multiples of 3 
- * pritns Buzz for multiples of 5 
+ * prints Fizz for multiples of 3
+ * pritns Buzz for multiples of 5
  * prints FizzBuzz for multiples of 5 & 3
  *
  * Return: Always 0 ()success
  */
 int main(void)
 {
-	fizz_buzz();
-	return (0);
-}
+	int i;
+	char f[] = "Fizz";
+	char b[] = "Buzz";
+	char fb[] = "FizzBuzz";
 
-/**
- * fizz_buzz - print from 1 thro' 100
- *
- * Return - void
- */
-void fizz_buzz(void)
-{
-	int fizz;
-
-	for (fizz = 1; fizz <= 100; fizz++)
+	for (i = 1; i <= 100; i++)
 	{
-		if (fizz % 15 == 0)
-		{
-			printf("FizzBuzz ");
-		}
-		else if (fizz % 3 == 0)
-		{
-			printf("Fizz ");
-		}
-		else if (fizz % 5 == 0)
-		{
-			printf("Buzz ");
-		}
+		if (i == 100)
+			printf("%s", b);
+		else if ((i % 3 == 0) && (i % 5 == 0))
+			printf("%s ", fb);
+		else if (i % 3 == 0)
+			printf("%s ", f);
+		else if (i % 5 == 0)
+			printf("%s ", b);
 		else
-		{
-			if (fizz = 100)
-			{
-				printf("%d", fizz);
-			}
-			printf("%d ", fizz);
-		}
+			printf("%d ", i);
 	}
 	printf("\n");
+
+	return (0);
 }
