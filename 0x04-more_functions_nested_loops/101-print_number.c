@@ -1,22 +1,24 @@
 #include "main.h"
 
 /**
- * print_number - cprints an integer
- * @n: char from stdin
- * Return: void
- */
+  * print_number - Prints number
+  * @n: number passed in for check
+  */
 void print_number(int n)
 {
-	unsigned int nu;
+	unsigned int num;
 
-	nu = n;
+	num = n;
 
 	if (n < 0)
 	{
-		_putchar('-');
-		nu *= -1;
+		_putchar(45);
+		num = -n;
 	}
-	if (nu / 10)
-		print_number(n / 10);
-	_putchar(nu % 10 + '0');
+
+	if (num / 10)
+		print_number(num / 10);
+
+	_putchar('0' + (num % 10));
+
 }
