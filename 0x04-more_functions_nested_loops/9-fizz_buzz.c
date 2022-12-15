@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void fizz_buzz(void);
 
