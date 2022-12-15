@@ -2,23 +2,23 @@
 
 /**
   * print_number - Prints number
-  * @n: number passed in for check
+  * @n: integer to print
   */
 void print_number(int n)
 {
-	unsigned int num;
+	unsigned int nu;
 
-	num = n;
+	nu = n;
 
 	if (n < 0)
 	{
-		_putchar(45);
-		num = -n;
+		_putchar('-');
+		nu = -n;
 	}
 
-	if (num / 10)
-		print_number(num / 10);
+	if (nu / 10)
+		print_number(nu / 10);
 
-	_putchar('0' + (num % 10));
+	_putchar(nu % 10 + '0');
 
 }
