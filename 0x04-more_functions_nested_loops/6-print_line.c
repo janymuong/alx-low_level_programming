@@ -3,6 +3,8 @@
 /**
  * print_line - print line in terminal
  *
+ * @n: number of '_' chars to print
+ *
  * Return: void
  */
 
