@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-  * _strchr - locates a character in a string.
+  * _strchr - locates a character in a string
   * @s: base string pointer
   * @c: look up char
   *
-  * Return: returns a pointer to s on success or null on err
+  * Return: pointer to s on success or null on err
   */
 char *_strchr(char *s, char c)
 {
