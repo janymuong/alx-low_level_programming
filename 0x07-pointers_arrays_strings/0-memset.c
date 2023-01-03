@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * _memset - fills the 1st n bytes of the mem area w/ const byte b
+  * _memset - fills the 1st n bytes of the mem area w/ b
   * @s: pointer to char array
   * @b: char conts byte
   * @n: max size of char str
@@ -17,5 +17,5 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] = b;
 	}
 
-    return (s);
+	return (s);
 }
