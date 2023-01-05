@@ -1,3 +1,3 @@
 ## Recursion
 ---
-C - syntax for ```recursion```, recursive functions, and use cases.
+C - syntax for ```recursion```, recursive functions implimentation, and use cases.
