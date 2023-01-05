@@ -11,12 +11,12 @@ int is_prime_check(int c, int i);
  */
 int is_prime_check(int c, int i)
 {
-        if (i == 1)
-                return (1);
-        if (c % i == 0)
-                return (0);
-        else
-                return (is_prime_check(c, i - 1));
+	if (i == 1)
+		return (1);
+	if (c % i == 0)
+		return (0);
+	else
+		return (is_prime_check(c, i - 1));
 }
 
 /**
