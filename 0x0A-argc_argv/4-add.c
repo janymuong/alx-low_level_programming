@@ -9,7 +9,7 @@
  */
 int main(int argc, char **argv)
 {
-	int i, sum_positive = 0;
+	int i, sum = 0;
 
 	if (argc < 1)
 		return (0);
@@ -18,12 +18,12 @@ int main(int argc, char **argv)
 	{
 		if (!atoi(argv[i]))
 		{
-			printf("%s\n", "Error");
+			printf("Error\n");
 			return (1);
 		}
-		sum_positive += atoi(argv[i]);
+		sum += atoi(argv[i]);
 	}
-	printf("%d\n", sum_positive);
+	printf("%d\n", sum);
 
 	return (0);
 }
