@@ -16,3 +16,5 @@ int main(void)
 ```
 
 The way you'd use the library is this - with the following commands(compiling and running the target program): ```gcc -std=gnu89 main.c -L. -lmy -o quote && ./quote```
+
+The ```main.h``` file contains prototypes for the symbols(in this case functions from files in prior directories in this root repo, eg pointers & others). ```*.c``` files (which contain the said functions) are compiled to object files which are used as 'static archive'.
