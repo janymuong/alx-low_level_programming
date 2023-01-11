@@ -7,38 +7,40 @@
   *
   * Return: pointer to concat string
   */
-
 char *argstostr(int ac, char **av)
 {
-	char *str;
-	int size_alloc, i, j, k;
+	char *size, *str;
+	int i, j, size_alloc;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
-	for (i = 0; i < ac; i++)
+	for (i = 0, size_alloc = 0; i < ac; i++)
 	{
-		for (j = 0; av[i][j] != '\0'; j++)
-			size_alloc++;
+		for (j = 0; *(*(av + i) + j) != '\0'; j++, size_alloc++)
+			;
 		size_alloc++;
 	}
 
-	str = malloc(sizeof(char) * (size_alloc + 1));
+	size_alloc++;
 
-	if (str == NULL)
+	size = malloc(size_alloc * sizeof(char));
+
+	if (size == NULL)
 		return (NULL);
 
-	k = 0;
+	str = size;
 
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
 		{
-			str[k] = av[i][j];
-			k++;
+			*size = av[i][j];
+			size++;
 		}
-		str[k] = '\n';
-		k++;
+
+		*size = '\n';
+		size++;
 	}
 
 	return (str);
