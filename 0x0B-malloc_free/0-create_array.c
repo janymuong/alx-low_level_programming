@@ -19,7 +19,6 @@ char *create_array(unsigned int size, char c)
 	str = (char *)malloc(size * sizeof(char));
 	if (str == NULL)
 	{
-		printf("Error allocating memory!\n");
 		return (NULL);
 	}
 	for (; i < size; i++)
