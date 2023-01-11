@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-  * str_concat - concatenate two string
+  * free_grid - frees a 2-D grid created by alloc_grid()
   * @grid: pointer to 2-D array
   * @height: 2-D size
   *
