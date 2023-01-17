@@ -71,14 +71,14 @@ int _strlen(char *s)
  */
 char *_strcpy(char *dest, char *src)
 {
-	int len = 0, i = 0;
+	int len_str = 0, i = 0;
 
-	while (src[len] != '\0')
+	while (src[len_str] != '\0')
 	{
-		len++;
+		len_str++;
 	}
 
-	for (; i < len; i++)
+	for (; i < len_str; i++)
 	{
 		dest[i] = src[i];
 	}
