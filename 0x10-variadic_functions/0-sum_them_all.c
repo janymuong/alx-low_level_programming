@@ -9,20 +9,23 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list args;
-	unsigned int i, sum = 0;
+	int sum;
+	unsigned int i;
+	va_list valist;
 
 	if (n == 0)
 		return (0);
 
-	va_start(args, n);
+	va_start(valist, n);
 
-	for (i = 0; i < n; i++)
+	sum = i = 0;
+	while (i < n)
 	{
-		sum += va_arg(args, const unsigned int);
+		sum = sum + va_arg(valist, int);
+		i++;
 	}
 
-	va_end(args);
+	va_end(valist);
 
 	return (sum);
 }
