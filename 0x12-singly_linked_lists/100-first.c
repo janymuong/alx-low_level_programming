@@ -1,8 +1,9 @@
 #include "lists.h"
 
 /**
-  * _main_pred - print chars before main is executed
+  * _main_pred - print chars before a main is executed
   *
+  * Return: void
   */
 void _main_pred(void)
 {
