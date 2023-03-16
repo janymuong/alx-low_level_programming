@@ -1,3 +1,3 @@
 # C - Hello World
 
---- The C language ---
+The `C` language;
