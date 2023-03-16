@@ -1,7 +1,7 @@
 ## C - Doubly Linked Lists
 
-> Definition - __WHAT__ a Doubly Linked List __IS__:	 
->  A Doubly Linked List (DLL) contains an extra pointer, typically called the `previous` pointer, together with the `next` pointer and `data` which are basically what  a `singly linked list` is.
+> Definition - _WHAT_ a Doubly Linked List _IS_:		  
+> a `doubly linked list` contains an extra pointer, typically called the `previous` pointer, together with the `next` pointer and `data` which are basically what  a `singly linked list` is.
 
 ```bash
 typedef struct dlistint_s
