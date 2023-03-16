@@ -1,3 +1,4 @@
 # C - Hello World
-
-The `C` language;
+```bash
+`C` language;
+```
