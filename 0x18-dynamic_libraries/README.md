@@ -1,6 +1,6 @@
 ## C - Dynamic Libraries
 
-> Dynamically Linking:
+> Dynamically Linking:  	
 > A dynamic(shared) library culminates in a lightweight executable, since linking happens at runtime. Because it resolves references during runtime, it does take more time for execution. Its inherent modularity is a powerful feature for developing.
 
 You can create a shared library like this in command line:
