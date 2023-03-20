@@ -7,7 +7,7 @@ You can create a shared library like this in command line:
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -shared -Wl,-soname,libdynamic.so -o libdynamic.so -fPIC *.c
 ```
-> will create a dynamic library from all C source files in the working directory.
+> creates a dynamic library from `C` source files in the working directory.
 
 
 This git directory also indirectly(per user system) covers usage for: `ldd`, `nm`, `ldconfig`, and the environment variable `$LD_LIBRARY_PATH` as well as usage of the 'created' library.
