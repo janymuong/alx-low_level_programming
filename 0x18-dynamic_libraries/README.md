@@ -12,6 +12,8 @@ gcc -Wall -Werror -Wextra -pedantic -shared -Wl,-soname,libdynamic.so -o libdyna
 
 This git directory also indirectly(per user's system) covers usage for the commands: `ldd`, `nm`, `ldconfig`, and the environment variable `$LD_LIBRARY_PATH`, as well as usage of the 'created' library.
 
+Compare with/DIFF - [C - Static Libraries](../0x09-static_libraries/).
+
 ---
 ### `appendix`   		
 In `gcc options`:
