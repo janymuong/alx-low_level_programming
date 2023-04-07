@@ -1,4 +1,4 @@
-## `C` - Hash tables
+## `C` - Hash Tables
 
 ### Preview
 This directory contains simple implementations of a `hash table` in C, including a `hash function` to generate the index used to store key-value pairs in the table[array]. 
