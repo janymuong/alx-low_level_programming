@@ -9,7 +9,7 @@ This directory contains simple implementations of a `hash table` in C, including
 
 
 `Usage` 		  
-To use the hash table in your C program, simply include the hash_table.h header file and link the hash_table.c source file in your project. Then, create a new hash table with the create_table function, and insert key-value pairs with the insert function. You can retrieve the value associated with a key using the get function.
+To use the hash table in your C program, simply include the hash_table.h header file and link the hash_table.c source file in your files. Then, create a new hash table with a `create` function, and insert key-value pairs with the an `insert/update` function. You can retrieve the value associated with a key using a `read` function, and you can delete with a `delete` anaolg.
 
 ### Struct
 
@@ -45,7 +45,7 @@ typedef struct hash_table_s
 } hash_table_t;
 ```
 
-Sample Hashing/Operations on Hash Table:
+Sample Hashing/Operations on a hash table:
 ```bash
 #include "hash_table.h"
 
@@ -53,5 +53,5 @@ int main() {
     <insert_defined_elsewher>
     <delete_defined_elsewher>
     <retrive_defined_elsewher>
-    return 0;
+    return (0);
 }
