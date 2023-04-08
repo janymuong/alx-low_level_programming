@@ -3,17 +3,17 @@
 ### Preview
 This directory contains simple implementations of a `hash table` in C, including a `hash function` to generate the index used to store key-value pairs in the table[array]. 
 
-> A hash table is a data structure that provides fast access to values based on their keys, with an expected time complexity of O(1) for insertion, deletion, and retrieval operations.
+> A `hash table` is a data structure that provides fast access to values based on their keys, with an expected time complexity of O(1) for **insertion**, **deletion**, and **retrieval** operations.
 
-> A hash function implementation is a simple algorithm that computes the sum of the ASCII codes of the characters in the key, modulo the table size. This function may not be ideal for all applications, as it can result in collisions (when two keys map to the same index) and reduced performance.
+> A `hash function` implementation is a simple algorithm that computes the sum of the ASCII codes of the characters in the key, modulo the table size. This function may not be ideal for all applications, as it can result in collisions (when two keys map to the same index) and reduced performance.
 
 
 `Usage` 		  
-To use the hash table in your C program, simply include the hash_table.h header file and link the hash_table.c source file in your files. Then, create a new hash table with a `create` function, and insert key-value pairs with the an `insert/update` function. You can retrieve the value associated with a key using a `read` function, and you can delete with a `delete` anaolg.
+To use a hash table in a C program, simply include a `hash_table.h` header file and link it in your source files. Create a new hash table with a `create` function, and insert key-value pairs with an `insert/update` function; you can retrieve the value associated with a key using a `read` function, and you can delete with a `delete` analog.
 
 ### struct
 
-`sample hash_tables.h:`
+sample header file: `hash_tables.h`
 ```bash
 /**
  * struct hash_node_s - Node of a hash table
@@ -45,7 +45,7 @@ typedef struct hash_table_s
 } hash_table_t;
 ```
 
-`sample hashing/operations on a hash table`:
+sample `hashing/operations` on a hash table: a main program.
 ```bash
 #include "hash_tables.h"
 
