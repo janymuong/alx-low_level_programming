@@ -47,11 +47,14 @@ typedef struct hash_table_s
 
 Sample Hashing/Operations on a hash table:
 ```bash
-#include "hash_table.h"
+#include "hash_tables.h"
 
-int main() {
-    <insert_defined_elsewher>
-    <delete_defined_elsewher>
-    <retrive_defined_elsewher>
-    return (0);
+int main(void)
+{
+    hash_table_t *ht;
+
+    ht = hash_table_create(1024);
+    hash_table_set(ht, "betty", "cool");
+    return (EXIT_SUCCESS);
 }
+```
