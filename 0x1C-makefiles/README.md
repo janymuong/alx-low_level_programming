@@ -1,12 +1,12 @@
 # Makefiles
-> `c`, `GNU make`  
+> `c`, `GNU make`, `Makefiles`  
 
 ![Make-stuff](./giphy-2.gif)
 
-A Makefile is a file that contains instructions for building and/or managing a software project. Makefiles specify dependencies between different parts of the project and define **rules** for how to build the project. In `C`, specifically, it's used to automate the compilation process.
+A `Makefile` is a file that contains instructions for building and/or managing a software project. Makefiles specify dependencies between different parts of the project and define **rules** for how to build the project. In `C`, specifically, a **Makefile** is used to automate the compilation process.
 
 ---
-## Basic Functionaly
+## Basic Functionality
 - Automates the compilation and building process of C projects.
 - Handles dependencies between source files and object files efficiently.
 - Supports incremental compilation, recompiling only the necessary files when changes occur.
@@ -15,7 +15,7 @@ A Makefile is a file that contains instructions for building and/or managing a s
 
 Read more about [`GNU make`](https://www.gnu.org/software/make/) for reference, and usage with a `C` compiler (e.g., `GCC`) installed on the system.
 
-## Usage - GNU Make utility
+## Usage - GNU make Utility
 
 ```bash
 # build a project
@@ -23,7 +23,7 @@ make
 ```
 > this will execute the rules defined in the Makefile, compiling the source files and producing the executable. iff the build is successful, the compiled executable will be created in the project directory.
 
-To do specific routines the project, run **make** targeting a specific directive eg remove the object files and the executable:
+To do specific routines the project, run **make** targeting a specific rule/directive eg remove the object files and the executable i.e. cleanup:
 
 ```bash
 make clean
