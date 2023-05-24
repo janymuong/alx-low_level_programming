@@ -32,7 +32,7 @@ make clean
 
 ## Customizations
 > **Note**  
-> sample customization of **Make**:
+> sample customization of **make**:
 
 - you can modify the `CC` variable in the Makefile to specify the C compiler to be used.
 - can adjust the `CFLAGS` variable in the Makefile to add or modify compiler flags.
