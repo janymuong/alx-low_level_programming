@@ -1,8 +1,9 @@
 # Makefiles
-`c`  
-A Makefile is a file that contains instructions for building and/or managing a software project. Makefiles specify dependencies between different parts of the project and define rules for how to build the project. In `C`, specifically, it's used to automate the compilation process.
+> `c`, `GNU make`  
 
 ![Make-stuff](./giphy-2.gif)
+
+A Makefile is a file that contains instructions for building and/or managing a software project. Makefiles specify dependencies between different parts of the project and define rules for how to build the project. In `C`, specifically, it's used to automate the compilation process.
 
 ---
 ## Basic Functionaly
@@ -31,7 +32,7 @@ make clean
 
 ## Customizations
 > **Note**  
-> sample customization of **Make****:
+> sample customization of **Make**:
 
 - you can modify the `CC` variable in the Makefile to specify the C compiler to be used.
 - can adjust the `CFLAGS` variable in the Makefile to add or modify compiler flags.
