@@ -3,7 +3,7 @@
 
 ![Make-stuff](./giphy-2.gif)
 
-A Makefile is a file that contains instructions for building and/or managing a software project. Makefiles specify dependencies between different parts of the project and define rules for how to build the project. In `C`, specifically, it's used to automate the compilation process.
+A Makefile is a file that contains instructions for building and/or managing a software project. Makefiles specify dependencies between different parts of the project and define **rules** for how to build the project. In `C`, specifically, it's used to automate the compilation process.
 
 ---
 ## Basic Functionaly
@@ -38,5 +38,5 @@ make clean
 - can adjust the `CFLAGS` variable in the Makefile to add or modify compiler flags.
 - you can update the `LDFLAGS` variable in the Makefile to include any necessary linker flags.
 - customize the `TARGET` variable in the Makefile to set the desired name for the final executable.
-- adjust the SRCS variable in the Makefile to specify the source files used in the project.
-- modify the rules in the Makefile to add additional build steps or handle project-specific requirements.
+- adjust the `SRCS` variable in the Makefile to specify the source files used in the project.
+- modify the **rules** in the Makefile to add additional build steps or handle project-specific requirements.
