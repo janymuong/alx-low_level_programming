@@ -8,7 +8,7 @@ This project focuses on implementing various search algorithms in the `C` progra
 The search algorithms have different time complexities, which are denoted using `Big O notation` and which entail maximum theoretical run time and computational complexity. In this project, we'll look at `space complexity` as well.
 
 ## Compilation with `gcc`:
-Each implementation of a search algorithm is tested using main programs, which are compiled alog with the specific search algorithm file.
+Each implementation of a search algorithm is tested using main programs, which are compiled along with the specific search algorithm file.
 
 ```bash
 $ cat 0-main.c
@@ -33,6 +33,9 @@ int main(void)
     printf("Found %d at index: %d\n", 999, linear_search(array, size, 999));
     return (EXIT_SUCCESS);
 }
+```
+
+```bash
 $ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 0-main.c 0-linear.c -o 0-linear
 $ ./0-linear
 ```
