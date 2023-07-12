@@ -45,9 +45,9 @@ In `gcc` options...
 
 - [`simple_shell`](https://github.com/janymuong/simple_shell) - **UNIX Bourne Shell - sh** emulator
 
-- [C - Sorting Algorithms](https://github.com/janymuong/sorting_algorithms) - Implementation of sorting algorithms, asymptotic analysis, and BIG - O notation
+- [`sorting_algorithms`](https://github.com/janymuong/sorting_algorithms) - `C` implementation of sorting algorithms, asymptotic analysis, and BIG - O notation
 
-- [Binary Trees](https://github.com/janymuong/binary_trees) - `C` Data Structures: Binary Trees
+- [`binary_trees`](https://github.com/janymuong/binary_trees) - `C` Data Structures: Binary Trees
 
 ---
 > ## `env`:  
