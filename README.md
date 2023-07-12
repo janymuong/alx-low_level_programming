@@ -39,7 +39,7 @@ In `gcc` options...
 - `soucefile1.c` `soucefile2.c` `soucefile-N.c` - these are the source code files that are being compiled.
 - `-o outputfile` - this option specifies the name of the output **executable** file. In this case, it is set to `outputfile`.
 
-# C - Based Projects Related to this Track:
+### `C - Based Projects Related to this Track`:
 
 - [`simple_shell`](https://github.com/janymuong/simple_shell) - **UNIX Bourne Shell (`sh`)** emulator
 
@@ -51,5 +51,5 @@ In `gcc` options...
 
 ---
 > ## `env`:  
-> C lang, GCC  
-> GNU/Linux
+> - C lang, GCC  
+> - GNU/Linux
