@@ -38,3 +38,7 @@ In `gcc` options...
 - `-std=gnu89` - this option sets the **C language** standard to be used during compilation. In this case, it is set to the `GNU` dialect of the **C language**, which is based on the `C89/C90` standard with some extensions.
 - `soucefile1.c` `soucefile2.c` `soucefile-N.c` - these are the source code files that are being compiled.
 - `-o outputfile` - this option specifies the name of the output **executable** file. In this case, it is set to `outputfile`.
+
+> ### `env`:  
+>> C lang, GCC  
+>> GNU/Linux
