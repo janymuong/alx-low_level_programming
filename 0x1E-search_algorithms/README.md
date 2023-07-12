@@ -7,7 +7,7 @@ This project focuses on implementing various search algorithms in the `C` progra
 
 The search algorithms have different time complexities, which are denoted using `Big O notation` and which entail maximum theoretical run time and computational complexity. In this project, we'll look at `space complexity` as well.
 
-## Compilation with `gcc`:
+## Compilation with `GCC`:
 Each implementation of a search algorithm is tested using main programs, which are compiled along with the specific search algorithm file.
 
 ```bash
@@ -38,4 +38,8 @@ int main(void)
 ```bash
 $ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 0-main.c 0-linear.c -o 0-linear
 $ ./0-linear
+```
+
+```bash
+ $ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 106-main.c 106-linear_skip.c skiplist/*.c -lm -o 106-linear
 ```
