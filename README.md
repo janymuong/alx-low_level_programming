@@ -41,9 +41,9 @@ In `gcc` options...
 
 # C - Based Projects Related to this Track:
 
-- [`printf`](https://github.com/janymuong/printf) - Standard Library `printf` funtion emulator
+- [`simple_shell`](https://github.com/janymuong/simple_shell) - **UNIX Bourne Shel    l(sh)** emulator
 
-- [`simple_shell`](https://github.com/janymuong/simple_shell) - **UNIX Bourne Shell - sh** emulator
+- [`printf`](https://github.com/janymuong/printf) - Standard Library `printf` funtion emulator
 
 - [`sorting_algorithms`](https://github.com/janymuong/sorting_algorithms) - `C` implementation of sorting algorithms, asymptotic analysis, and BIG - O notation
 
