@@ -39,7 +39,17 @@ In `gcc` options...
 - `soucefile1.c` `soucefile2.c` `soucefile-N.c` - these are the source code files that are being compiled.
 - `-o outputfile` - this option specifies the name of the output **executable** file. In this case, it is set to `outputfile`.
 
+# C - Based Projects Related to this Track:
+
+- [`printf`](https://github.com/janymuong/printf) - Standard Library `printf` funtion emulator
+
+- [`simple_shell`](https://github.com/janymuong/simple_shell) - **UNIX Bourne Shell - sh** emulator
+
+- [C - Sorting Algorithms](https://github.com/janymuong/sorting_algorithms) - Implementation of sorting algorithms, asymptotic analysis, and BIG - O notation
+
+- [Binary Trees](https://github.com/janymuong/binary_trees) - `C` Data Structures: Binary Trees
+
 ---
-> ### `env`:  
->> C lang, GCC  
->> GNU/Linux
+> ## `env`:  
+> C lang, GCC  
+> GNU/Linux
