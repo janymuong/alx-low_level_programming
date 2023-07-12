@@ -41,7 +41,7 @@ In `gcc` options...
 
 # C - Based Projects Related to this Track:
 
-- [`simple_shell`](https://github.com/janymuong/simple_shell) - **UNIX Bourne Shel    l(sh)** emulator
+- [`simple_shell`](https://github.com/janymuong/simple_shell) - **UNIX Bourne Shell (`sh`)** emulator
 
 - [`printf`](https://github.com/janymuong/printf) - Standard Library `printf` funtion emulator
 
