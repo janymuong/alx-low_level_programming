@@ -16,7 +16,7 @@ Low-level programming in C often involves tasks such as:
 | Performance Optimization                             | Analyzing code performance, profiling, and making low-level optimizations to improve execution speed or reduce memory footprint.       |
 
 
-> **Note**  - `C`:  
+> **Note**:  
 > Low-level programming is often used in scenarios where direct hardware access, performance optimization, or system-level programming is necessary, such as embedded systems, device drivers, operating systems, and real-time applications.
 
 
