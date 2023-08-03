@@ -21,6 +21,17 @@ Low-level programming in C often involves tasks such as:
 >> Low-level programming is often used in scenarios where direct hardware access, performance optimization, or system-level programming is necessary, such as embedded systems, device drivers, operating systems, and real-time applications.
 
 
+### [C - Based Projects Related to this Track]():
+
+- [`simple_shell`](https://github.com/janymuong/simple_shell) - **UNIX Bourne Shell (`sh`)** emulator
+
+- [`printf`](https://github.com/janymuong/printf) - Standard Library `printf` funtion emulator
+
+- [`sorting_algorithms`](https://github.com/janymuong/sorting_algorithms) - `C` implementation of sorting algorithms, asymptotic analysis, and BIG - O notation
+
+- [`binary_trees`](https://github.com/janymuong/binary_trees) - `C` Data Structures: Binary Trees
+
+
 ---
 ## `appendix: general`
 `C` language compilation syntax;
@@ -39,17 +50,7 @@ In `gcc` options...
 - `soucefile1.c` `soucefile2.c` `soucefile-N.c` - these are the source code files that are being compiled.
 - `-o outputfile` - this option specifies the name of the output **executable** file. In this case, it is set to `outputfile`.
 
-### [C - Based Projects Related to this Track]():
 
-- [`simple_shell`](https://github.com/janymuong/simple_shell) - **UNIX Bourne Shell (`sh`)** emulator
-
-- [`printf`](https://github.com/janymuong/printf) - Standard Library `printf` funtion emulator
-
-- [`sorting_algorithms`](https://github.com/janymuong/sorting_algorithms) - `C` implementation of sorting algorithms, asymptotic analysis, and BIG - O notation
-
-- [`binary_trees`](https://github.com/janymuong/binary_trees) - `C` Data Structures: Binary Trees
-
----
-> ## `env`:  
+> ## `Environment`:  
 > - C lang, GCC  
 > - GNU/Linux
