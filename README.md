@@ -16,19 +16,16 @@ Low-level programming in C often involves tasks such as:
 | Performance Optimization                             | Analyzing code performance, profiling, and making low-level optimizations to improve execution speed or reduce memory footprint.       |
 
 
-> **Note**:  
 > Low-level programming is often used in scenarios where direct hardware access, performance optimization, or system-level programming is necessary, such as embedded systems, device drivers, operating systems, and real-time applications.  
 
 
 ### [C - Based Projects Related to this Track]():
 
-- [`simple_shell`](https://github.com/janymuong/simple_shell) - **UNIX Bourne Shell (`sh`)** emulator
-
-- [`printf`](https://github.com/janymuong/printf) - Standard Library `printf` funtion emulator
-
-- [`sorting_algorithms`](https://github.com/janymuong/sorting_algorithms) - `C` implementation of sorting algorithms, asymptotic analysis, and BIG - O notation
-
-- [`binary_trees`](https://github.com/janymuong/binary_trees) - `C` Data Structures: Binary Trees
+> **Note**:  
+> - [`simple_shell`](https://github.com/janymuong/simple_shell) - **UNIX Bourne Shell (`sh`)** emulator  
+> - [`printf`](https://github.com/janymuong/printf) - Standard Library `printf` funtion emulator  
+> - [`sorting_algorithms`](https://github.com/janymuong/sorting_algorithms) - `C` implementation of sorting algorithms, asymptotic analysis, and BIG - O notation  
+> - [`binary_trees`](https://github.com/janymuong/binary_trees) - `C` Data Structures: Binary Trees
 
 
 ---
