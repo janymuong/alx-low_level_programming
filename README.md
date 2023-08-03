@@ -24,7 +24,7 @@ Low-level programming in C often involves tasks such as:
 
 > **Note**:  
 > - [`simple_shell`](https://github.com/janymuong/simple_shell) - **UNIX Bourne Shell (`sh`)** emulator  
-> - [`printf`](https://github.com/janymuong/printf) - Standard Library `printf` funtion emulator  
+> - [`printf`](https://github.com/janymuong/printf) - Standard Library `printf` function emulator  
 > - [`sorting_algorithms`](https://github.com/janymuong/sorting_algorithms) - `C` implementation of sorting algorithms, asymptotic analysis, and BIG - O notation  
 > - [`binary_trees`](https://github.com/janymuong/binary_trees) - `C` Data Structures: Binary Trees
 
