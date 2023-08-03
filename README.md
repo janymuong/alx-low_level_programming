@@ -1,8 +1,8 @@
 # Low-level Programming
 
-Low-level programming in the `C language` involves writing code that directly interacts with the hardware and low-level components of a computer system. It involves working with the fundamental building blocks of a computer, such as *registers*, *memory addresses*, and *processor instructions*, to create efficient and optimized programs.  
+> Low-level programming in the `C language` involves writing code that directly interacts with the hardware and low-level components of a computer system. It involves working with the fundamental building blocks of a computer, such as *registers*, *memory addresses*, and *processor instructions*, to create efficient and optimized programs.  
+> It is often used in scenarios where in addtion to direct hardware access, performance optimization, or system-level programming is necessary, such as embedded systems, device drivers, operating systems, and real-time applications.  
 
-> Low-level programming is often used in scenarios where direct hardware access, performance optimization, or system-level programming is necessary, such as embedded systems, device drivers, operating systems, and real-time applications.  
 
 In low-level programming, programmers have a deep understanding of the underlying hardware architecture and the C programming language itself. They write code that is close to the machine level and has direct control over the computer's resources. This level of control allows for fine-grained optimization and efficient utilization of system resources.  
 
